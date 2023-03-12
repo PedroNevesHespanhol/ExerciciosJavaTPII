@@ -1,0 +1,20 @@
+//1 - O que é uma variável? Descreva como é feita a declaração de variável e explique em termos de memória sua relação.
+R: Uma variável é um espaço na memória usado para guardar um valor que será usado em um programa em algum momento, 
+ela é definida com um nome e um tipo os quais determinam como serão armazenados e usados.
+
+//2 - Linguagens de programação podem ser compiladas e interpretadas, explique o conceito de cada contexto ressaltando suas diferenças. 
+Em relação à Linguagem Java, em qual desses contextos se encaixa?
+R: Linguagens compiladas têm seu código fonte transformado em código binário antes de ser executado, para que o 
+computador entenda. Já linguagens interpretadas têm seus códigos interpretados enquanto são executados, não pre-
+cisando compilar antes. No caso do java, pode-se considerá-la um híbrido entre os dois, pois ela inicialmente
+é compilada em bytecode e posteriormente o bytecode é interpretado pelo JVM. Dessa forma, é feita uma compilação
+antes da execução, mas a interpretação é durante a execucação, tornando o Java uma linguagem versátil que faz com 
+que um mesmo programa execute em diferentes sistemas operacionais e plataformas.
+
+//3 - Explique o que é: classe e objeto. Qual relação entre eles?
+R: Classe é um modelo que define a estrutura e comportamento de um conjunto de objetos. Definindo características e
+operações de um objeto. Já o objeto é uma instância de uma classe, entidade real criada a partir de uma classe, 
+uma variável que armazena uma referência a um espaço na memória onde os dados do objeto são armazenados. 
+Fazendo uma relação entre eles, pode-se dizer que a classe é uma definição genérica de um objeto, enquanto um objeto 
+é uma instância específica de uma classe. Como se a classe fosse uma receita e o objeto fosse o bolo que é feito a 
+partir dessa receita. A classe é o molde e o objeto é a peça moldada.
